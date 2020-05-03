@@ -15,7 +15,7 @@
 <p align="center">
   
 
-  <h1 align="center">🛒Shopping Cart</h1>
+  <h1 align="center">☁️Weather App</h1>
     <br/>
  
 </p>
@@ -28,16 +28,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A mini shopping cart with basic features of authentication,wishlist and comparision is implemented.
+A weather application built using openweather api which can give accurate results for current weather ,weather of nearby cities and coming 4 days weather prediction.
 
 ![dashboard](/docs/img/dashboard.png)
 
-![wishlist](/docs/img/cart.png)
+
 
 ### Built With
 
 * [React](https://reactjs.org/)
-* [Hooks](https://reactjs.org/docs/hooks-intro.html)
+* [Material-UI](https://material-ui.com/)
 
 
 
@@ -78,7 +78,13 @@ Distributed under the MIT License. See [MIT](LICENSE) for more information.
 
 Your Name - [Rohan Mistry](https://www.linkedin.com/in/rohan-mistry-826714180/) - mistryrohan13@gmail.com
 
-Project Link: [https://github.com/rohan-mistry/Shopping-Kart](https://github.com/rohan-mistry/Shopping-Kart)
+Project Link: [https://github.com/rohan-mistry/Weather-Forecast](https://github.com/rohan-mistry/Weather-Forecast)
+
+
+
+### References
+
+API - `https://openweathermap.org/`
 
 
 
