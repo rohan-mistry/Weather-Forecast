@@ -54,7 +54,8 @@ To get a local copy up and running follow these simple example steps. -->
 
 - `npm i` or `yarn`
 - `npm start` or `yarn start`
-
+-  Create a `.env` file inside the app
+-  Insert  `REACT_APP_API_KEY = YOUR_API_KEY `
 
 
 
