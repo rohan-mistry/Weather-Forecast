@@ -76,7 +76,7 @@ Distributed under the MIT License. See [MIT](LICENSE) for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Rohan Mistry](https://www.linkedin.com/in/rohan-mistry-826714180/) - mistryrohan13@gmail.com
+[Rohan Mistry](https://www.linkedin.com/in/rohan-mistry-826714180/) - mistryrohan13@gmail.com
 
 Project Link: [https://github.com/rohan-mistry/Weather-Forecast](https://github.com/rohan-mistry/Weather-Forecast)
 
