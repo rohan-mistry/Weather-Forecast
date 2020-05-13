@@ -40,7 +40,7 @@ export class Search extends Component {
         if(!this.state.country=='')
         {
             //current weather
-            fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.SearchTerm},${this.state.country}&APPID=80944371652425c54f7b37c7e1d49a13&units=metric` ).then(response =>
+            fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.SearchTerm},${this.state.country}&APPID=${process.env.REACT_APP_API_KEY}&units=metric` ).then(response =>
                 response.json()
             ).then(
                 (data) => {
@@ -49,7 +49,7 @@ export class Search extends Component {
                 }
             );
             //5 day forecast
-            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm},${this.state.country}&APPID=80944371652425c54f7b37c7e1d49a13&units=metric&cnt=3` ).then(resp =>
+            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm},${this.state.country}&APPID=${process.env.REACT_APP_API_KEY}&units=metric&cnt=3` ).then(resp =>
                 resp.json()
             ).then(
                 (data) => {
@@ -59,7 +59,7 @@ export class Search extends Component {
                 }
             );
             //nextdays 
-            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm},${this.state.country}&APPID=80944371652425c54f7b37c7e1d49a13&units=metric` ).then(resp =>
+            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm},${this.state.country}&APPID=${process.env.REACT_APP_API_KEY}&units=metric` ).then(resp =>
                 resp.json()
             ).then(
                 (data) => {
@@ -71,7 +71,7 @@ export class Search extends Component {
         }
         else {
             //current weather
-            fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.SearchTerm}&APPID=80944371652425c54f7b37c7e1d49a13&units=metric` ).then(response =>
+            fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.SearchTerm}&APPID=${process.env.REACT_APP_API_KEY}&units=metric` ).then(response =>
                 response.json()
             ).then(
                 (data) => {
@@ -80,7 +80,7 @@ export class Search extends Component {
                 }
             );
             //5 day forecast
-            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm}&APPID=80944371652425c54f7b37c7e1d49a13&units=metric&cnt=3` ).then(resp =>
+            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm}&APPID=${process.env.REACT_APP_API_KEY}&units=metric&cnt=3` ).then(resp =>
                 resp.json()
             ).then(
                 (data) => {
@@ -90,7 +90,7 @@ export class Search extends Component {
                 }
             );
             //nextdays 
-            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm}&APPID=80944371652425c54f7b37c7e1d49a13&units=metric` ).then(resp =>
+            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.SearchTerm}&APPID=${process.env.REACT_APP_API_KEY}&units=metric` ).then(resp =>
                 resp.json()
             ).then(
                 (data) => {
