@@ -15,7 +15,7 @@
 <p align="center">
   
 
-  <h1 align="center">☁️Weather App</h1>
+  <h1 align="center">⛅Weather App</h1>
     <br/>
  
 </p>
