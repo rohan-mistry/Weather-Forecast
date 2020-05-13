@@ -30,7 +30,7 @@
 
 A weather application built using openweather api which can give accurate results for current weather ,weather of nearby cities and coming 4 days weather prediction.
 
-![dashboard](/docs/img/dashboard.png)
+![dashboard](/doc/img/dashboard.png)
 
 
 
